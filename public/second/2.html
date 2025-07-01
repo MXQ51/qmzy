@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="宁夏图片展示页面">
+    <meta name="keywords" content="宁夏, 图片, 展示">
+    <title>宁夏图片展示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            margin: 10px;
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        form {
+            margin-top: 20px;
+        }
+        .evaluation {
+            margin-top: 20px;
+        }
+        .evaluation h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .evaluation p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>宁夏图片展示</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>图片链接</h2>
+            <p>
+                段落标记，<a href="https://yangzh.cn" target="_blank">这是一个超链接地址。</a>
+            </p>
+        </section>
+        <section>
+            <h2>图片列表</h2>
+            <ol>
+                <li>这是图</li>
+                <li>这是网图</li>
+                <li>这是百度上搜索的网图</li>
+                <li>这幅图片展现了日落时分的壮丽山景。天空被染成橙红色，云彩绚丽。山脉层次分明，山谷中的河流反射着天空的色彩。画面底部可见人类活动的痕迹，与自然景观和谐共存。</li>
+            </ol>
+        </section>
+        <section>
+            <h2>图片展示</h2>
+            <p>
+                <img src="宁夏.jpg" alt="宁夏风景" width="200">
+                <img src="https://pic5.40017.cn/04/000/db/90/rBTJU12DQxCAK11JAAR0McGbOsE789.jpg" alt="日落山景" width="200">
+            </p>
+        </section>
+        <section>
+            <h2>评价表格</h2>
+            <table>
+                <caption>宁夏风景评价</caption>
+                <thead>
+                    <tr>
+                        <th>评价</th>
+                        <th>描述</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>好看</td>
+                        <td>风景如画，美不胜收</td>
+                        <td>非常推荐</td>
+                    </tr>
+                    <tr>
+                        <td>挺好看的</td>
+                        <td>色彩搭配很和谐</td>
+                        <td>值得一去</td>
+                    </tr>
+                    <tr>
+                        <td>一般</td>
+                        <td>景色还可以</td>
+                        <td>适合短途旅行</td>
+                    </tr>
+                    <tr>
+                        <td>不好看</td>
+                        <td>没有想象中的美</td>
+                        <td>不太推荐</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>搜索表单</h2>
+            <form action="https://baike.baidu.com/item/%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/61753863" method="GET">
+                <label for="search_text">搜索：</label>
+                <input type="text" id="search_text" name="search_text">
+                <input type="submit" value="搜索">
+            </form>
+        </section>
+        <section class="evaluation">
+            <h3>用户评价</h3>
+            <p>用户1：这里的风景太美了，尤其是日落时分，让人流连忘返。</p>
+            <p>用户2：很值得一去的地方，自然风光和人文景观都很丰富。</p>
+            <p>用户3：景色不错，适合拍照打卡。</p>
+        </section>
+    </div>
+</body>
+</html>
